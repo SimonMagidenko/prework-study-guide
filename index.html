@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -12,16 +13,19 @@
       <img src="assets/Software Developer Clipart.jpeg" alt="Profile image of software developer (clipart)" />
     </header>
     <main>
+
       <section class="card" id="html-section">
         <h2><u>HTML</u></h2>
+
         <h3>HTML General Notes and Vocabulary</h3>
+       
         <ul>
           <li>HTML is an acronym for <b>Hypertext Markup Language</b></li>
           <li><u><b>Semantic HTML Element</b></u> - name of an element that describes its own content and role on the webpage</li>
           <li><u><b>Parent Element</b></u> - an element that contatins another element or elements within it.</li>
           <li><u><b>Child Element</b></u> - an element that is stored within a parent element</li>
         </ul>
-        <h3>HTML Elements</h3>
+        <h3>Common HTML Elements</h3>
         <ul>
           <li><b>"!DOCTYPE html"</b> element is a declaration that tells the browser to export html on the directed page</li>
           <li><b>"head"</b> element contains information, or metadata, that helps the browser to render the page correcty</li>
@@ -52,7 +56,9 @@
           <li><b>"section"</b> element defines a section in a document that contains thematic content</li>  
           <li><b>"b"</b> element is used to bold text on a webpage</li>
         </ul>
-        <h3>HTML Attributes</h3>
+
+        <h3>Common HTML Attributes</h3>
+        
         <ul>
           <li><b>"charset"</b> attribute is used to specify the character encoding doucument. It tells the browser how to interpret and render the text content of the html document</li>
           <ul>
@@ -65,18 +71,70 @@
           </ul>
           <li><b>"id"</b> attribute is used to uniquely identify an element on a web page. It provides a way to reference and manupulate specific elements using CSS and Javascript. </li> 
         </ul>
+
       </section>
    
       <section class="card" id="css-section">
         <h2><u>CSS</u></h2>
+        <h3><b>CSS General Notes and Vocabulary</b></h3>
         <ul>
-          <li>Enter CSS notes here</li>
+          <li>CSS is an acronym for <b>Cascading Style Sheets</b></li>
+          <li>CSS is a language used for describing the presentation and styling HTML documents. CSS wil define the colors, aesthetics, visual layout, and organization of an HTML document. </li>
+          <li>There are 3 ways to style a webpage using CSS, which are:</li>
+            <ol>
+              <li><b>Inline CSS</b> referes to the method of applying CSS directly within an HTML tag of an element. This will apply the CSS to the specific tag, which is used for immediate and specific style changes to an individual element.</li>
+              <li><b>Internal CSS Style Sheet</b> contains rules for the webpage in the head section of the HTML file. The rules are only applied to that webpage, which allows for configuration of classes and IDs.</li>
+              <li><b>External CSS Style</b> refers to the method of placing CSS styles in a separate file with a '.css' extension and linking it to an HTML document. This is used for defining styles in a dedicated file that can be shared across multiple HTML files, prompting reusability and easier maintenance. </li>
+            </ol>       
+          <li>
+              The <b>CSS Rule</b> below gives an explanation of the various aspects when declaring certain properties to a specific tag or selector:
+          </li>
+
+            <img src="assets/CSS Rule.png" alt="CSS Rule Visual" style="width: 585px; height: 175px;">
+
+          <li>
+              The <b>CSS Box Model</b> below shows how the Margin, Border, Padding, and Content are displayed on a webpage. This is a useful visual to understand how to format webpages using the various CSS properties.
+          </li>
+
+            <img src="assets/CSS Box Model .png" alt="CSS Box Model Visual" style="width: 500px; height: 300px;">
+
+          <li><b>Time Saving Tip:</b> Combine selectors using a comma to not have to rewrite rules.
+          <ul>
+            <li>For example: h1, h2, h3 {Insert selectors and values here}          
+            </li>
+          </ul></li>
+        </ul>
+        <h3><b>Common CSS Selectors</b></h3>
+        <ul>
+          <li><b>Element Selector:</b> Targets elements based on their HTML Tag name.</li>
+          <li><b>Class Selector:</b> Targets elements with a specific class attribute value. Denoted by a period ('.') followed by the class name.</li>
+          <li><b>ID Selector:</b> Targets a single element with a specific ID attribute value. Denotred by a hash symbol ('#') following by the ID name.</li>
+          <li><b>Attribute Selector:</b> Targets elements based on their attribute balues. Denoted by square brackets('[]') enclosing the attribute name within the brackets.</li>
+          <li><b>Descendant Selector:</b> Targets elements that are descendants of another element. Denoted by a space between two selectors.</li>  
+        </ul>
+        <h3><b>Common CSS Properties</b></h3>      
+        <ul>
+          <li><b>Margin:</b> Sets the space outside the borders of an elements</li>
+          <li><b>Padding:</b> Sets the space between the content and the borders of an element.</li>
+          <li><b>Width:</b> Sets the width of an element's content area</li>
+          <li><b>Height:</b> Sets the height of an element's content area</li>
+          <li><b>Background-color:</b> Sets the background color of an element</li>
+          <li><b>Color:</b> Sets the text color of an element's Content</li>
+          <li><b>Text-align:</b> Sets the horizontal alignment of text within an element</li>
+          <li><b>Margin (left, right, top bottom)</b> Sets the (left, right, top, bottom) margin space of an element</li>
+        </ul>
+
+            
+          
+            
         </ul>
       </section>
    
       <section class="card" id="git-section">
         <h2><u>Git</u></h2>
+
         <h3>Git Commands</h3>
+        
         <ul>
           <li><b>"git revert"</b> is a command that is used to create a new commit that undoes the changes made in a previous comment. It allows you to revert or undo specific commits while keeping a complete commit history</li>
           <li><b>"git status"</b> is a command used that is used to display the current status of the repository. When running "git status" in the terminal or command prompt within a git repository, it provides information about the state of the files in the repository.</li>

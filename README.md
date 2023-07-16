@@ -2,13 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
 This project is a study guide for beginner software engineers, who are looking for a basic framework of learning programming languages. I built this project to allow myself to have a resource for information about HTML,CSS, Git, and JavaScript. I now have a place to refer to whenever I have questions or concerns about coding. This project allowed me to learn about basic HTML, CSS, Git, and JavaScript. Most importantly I showed myself I can code!, which is a great first stop in my education.
 
 ## Installation
